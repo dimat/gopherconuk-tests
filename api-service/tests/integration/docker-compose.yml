@@ -1,0 +1,18 @@
+version: "2.0"
+
+services:
+  tests:
+    image: gophercon/ruby-tests${TAG}
+    command: ${TEST_ARGS}
+    volumes:
+      - ./:/data
+    depends_on:
+      - api-service
+
+  api-service:
+    image: gophercon/api-service${TAG}
+    depends_on:
+      - users-service
+
+  users-service:
+    image: gophercon/users-service${TAG}

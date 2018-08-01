@@ -1,0 +1,8 @@
+version: "2.0"
+
+services:
+  users-service:
+    build:
+      context: ..
+      dockerfile: users-service/Dockerfile
+    image: gophercon/users-service${TAG}

@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  tests:
+    build:
+      context: ..
+      dockerfile: example-proxy/Dockerfile
+    volumes:
+      - .:/data
+    extra_hosts:
+      - mock1:127.0.0.1
+      - mock2:127.0.0.1
+    command: ["bundle", "exec", "cucumber", "DEBUG=1"]

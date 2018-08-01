@@ -1,0 +1,16 @@
+hash: 7337027e9417c936934c73f9ee12e261cd8ec6d799cebc56654f9e5a5fec7f0a
+updated: 2018-07-31T22:41:05.219322+01:00
+imports:
+- name: github.com/caarlos0/env
+  version: 1cddc31c48c56ecd700d873edb9fd5b6f5df922a
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: cb4698366aa625048f3b815af6a0dea8aef9280a
+- name: github.com/gorilla/rpc
+  version: 5c1378103183095acc1b9289ac1475e3bc1e818e
+  subpackages:
+  - json
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+testImports: []

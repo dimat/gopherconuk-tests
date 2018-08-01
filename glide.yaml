@@ -1,0 +1,8 @@
+package: gophercon-tests
+import:
+- package: github.com/caarlos0/env
+  version: ^3.0.0
+- package: github.com/gorilla/mux
+- package: github.com/gorilla/rpc/json
+- package: github.com/pkg/errors
+  version: ^0.8.0

@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'cucumber', '3.1.0'
+gem 'gherkin_lint', '1.2.2'
+gem 'json', '2.1.0'
+gem 'rspec', '3.7.0'
+gem 'webrick', '1.3.1'
+
+gem 'ready-checker'
+gem 'glint-mock'
+gem 'jsonrpc-requests'
